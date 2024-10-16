@@ -1,6 +1,8 @@
 version : "3.3"
 services :
-  web :
-    image: "nodes-app:latest"
+    build: 
+      context: .
+  # web :
+  #   image: "nodes-app:latest"
      ports :
          - "8000:8000"
