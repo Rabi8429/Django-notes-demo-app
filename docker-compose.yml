@@ -2,7 +2,7 @@ version : "3.3"
 services :
    web :
      build:
-       context: .
-     #image: "nodes-app:latest"
+       # context: .
+     image: "rabi4450/nodes-app:latest"
      ports :
          - "8000:8000"
