@@ -3,6 +3,6 @@ services :
    web :
      # build:
        # context: .
-     image: "rabi4450/node-to-do"
+     image: "rabi4450/node-to-do:V50"
      ports :
          - "8000:8000"
